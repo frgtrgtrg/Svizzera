@@ -1,8 +1,8 @@
 .intestazione{
-    background-color: cadetblue;
+    background-color: cyan;
     text-align: center;
     border-style: solid;
-    border-color: cyan;
+    border-color: blue;
     border-width: 5px;
     padding: 10px;
 
@@ -12,4 +12,17 @@
 .nav-link{
     font-size: 20px;
     color: blue;
+}
+
+.contenitore{
+    border-style: solid;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+.simbolo{
+    font-size: 40px;
 }

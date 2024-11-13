@@ -1,0 +1,26 @@
+
+
+let contenitore = document.createElement('div');
+contenitore.style.borderStyle = 'solid';
+contenitore.style.width = '70px';
+contenitore.style.height = '70px';
+contenitore.style.position = 'absolute';
+contenitore.style.top = '500px';
+contenitore.style.left = '500px';
+
+let numeroAtomico = document.createElement('span');
+numeroAtomico.innerText = '1';
+
+let simbolo = document.createElement('a');
+simbolo.innerText = 'H';
+
+let nomeElemento = document.createElement ('span');
+nomeElemento.innerText = 'Idrogeno'
+
+contenitore.appendChild(numeroAtomico);
+contenitore.appendChild(simbolo);
+contenitore.appendChild(nomeElemento);
+
+let contenutoPrincipale = document.getElementById('contenuto-principale');
+
+contenutoPrincipale.appendChild(contenitore);
