@@ -21,6 +21,7 @@ simbolo.style.fontSize="25px"
 simbolo.href=elemento.source
 simbolo.style.display = "block"
 simbolo.style.textAlign = "center"
+simbolo.style,textDecoration = "none"
 let nomeElemento = document.createElement ('span');
 nomeElemento.innerText = elemento.name
 nomeElemento.style.fontSize = "11px"
